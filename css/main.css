@@ -1,0 +1,247 @@
+#mainnav{
+    display: none;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+body{
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+.hello{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    transform-origin: 50%;
+    width: 100%;
+    animation: gradient 15s  infinite ;
+}
+
+.nav-link:hover{
+    opacity: 50%;
+    transition: 0.2s ease-in;
+
+}
+
+.logo{
+    margin-left: 18%;
+    margin-top: -20%;
+    margin-bottom: 10%;
+}
+.hello button{
+    background-color:#d6d6d6;
+    color: rgb(0, 0, 0);
+    border:0;
+    margin-top: 0;
+    box-shadow: 0 5px 1px #919191;
+    transition: padding-top 2s ease-in-out ;
+
+}
+.hello button:hover{
+    transition: 0.2s ease-in;
+    background-color:#000000;
+    color:#C4C4C4 ;
+}
+.hello button:active{
+    padding-top: 5px;
+
+}
+.main_info{
+    background: content-box radial-gradient(#ffffff,#d8d8d8);
+    width: 100%;
+    height: fit-content;
+}
+.contactdiv{
+    background: content-box radial-gradient(#ffffff,#d8d8d8);
+
+
+}
+.contact h2{
+    margin-top: 15% ;
+}
+
+
+.additional{ 
+    height: fit-content;
+}
+.additional h2{
+    padding: 1%;
+    margin-top: 2%;
+ margin-left: 5%;
+}
+.additional p{
+    padding: 1%;
+    width: 50%;
+    margin-left: 5%;
+
+}
+.additional a{
+    margin-bottom: 3%;
+    margin-left: 6%;
+    padding: 0% 1% ;
+    width: 6%;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+.additional a:hover{
+    transition: 0.2s ease-in;
+    background: #ffffff;
+    color: #000000;
+}
+.name{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.other{
+    margin-bottom: 10%;
+}
+.projects a:hover{
+    opacity: 50%;
+}
+.man-img{
+    width: 60%;
+}
+.a{
+    display: none;
+}
+.b{
+    display: block;
+}
+#explore{
+    border-right: 3px solid #000000;
+    border-left: 3px solid #000000;
+}
+.active{
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: #ffffff 2px solid;
+}
+.active1{
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: #ffffff 2px solid;
+}
+.portfolio{
+    width: 100%;
+}
+.pictures-portfolio{
+    background: #1A1A1A;
+
+}
+#nav-tab{
+    background: #1A1A1A;
+}
+#nav-all-tab{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+}
+#nav-coded-tab{
+    border-bottom: 1px solid rgb(255, 255, 255, 0.205);
+}
+#nav-designed-tab{
+    border-bottom: 1px solid rgb(255, 255, 255, 0.205);
+}
+#nav-all-tab:focus{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#nav-coded-tab:focus{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#nav-designed-tab:focus{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.background-portfolio{
+    font-size: 2rem;
+    background-image:url("../img/mountains.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 50%;
+    padding: 5%;
+}
+h2{
+    letter-spacing: 0.1rem;
+
+}
+.background-portfolio p{
+    box-shadow: 0px 0px 5px black;
+    color: #ffffff;
+    letter-spacing: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    border: 5px solid #ffffff;
+}
+input{
+
+    background-color: rgb(255, 255, 255,0);
+    font-size: 1.3rem;
+    border-top: 0;
+    border-right: 0;
+    border-left: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0) ;
+}
+textarea{
+    background-color: rgb(255, 255, 255,0);
+    font-size: 1.3rem;
+
+    border-top: 0;
+    border-right: 0;
+    border-left: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0) ;
+}
+textarea:active{
+    border-right: 0;
+    border-top: 0;
+    
+}
+form button{
+    background-color: rgb(255, 255, 255,0);
+    font-size: 1.3rem;
+    margin-bottom: 15% ;
+
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+}
+form button:hover{
+    transition: 0.2s ease-out;
+    background: black;
+    color: #c7c7c7;
+}
+footer{
+    margin-top: auto;
+    background-color:#1A1A1A;;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+footer a:hover {
+    transition: 0.2s ease-in;
+    opacity: 50%;
+    color: #C4C4C4;
+}
+.arrow{
+    margin-bottom: 0.5%;
+    margin-top: 2%;
+}
+.back{
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
